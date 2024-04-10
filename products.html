@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <section class="product-list">
+        <div class="product">
+            <h3>Midnight Reverie</h3>
+            <img src="dark roast.jpeg" alt="Dark Roast Blend">
+            <p>Description: Dive into the depths of flavor with our Midnight Reverie blend. Crafted from carefully selected dark-roasted beans, this blend offers a rich, bold experience with hints of dark chocolate, toasted nuts, and a smoky finish. Perfect for those seeking a robust and full-bodied coffee experience that lingers long after the last sip.</p>
+            <p>$12.99</p>
+            <button onclick="addToCart('Midnight Reverie', 12.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Sunrise Serenade</h3>
+            <img src="light roast 2.jpeg" alt="Light Roast Blend">
+            <p>Description: Our Sunrise Serenade blend is a harmonious symphony of light-roasted coffee beans sourced from high-altitude farms around the world. With notes of citrus, floral undertones, and a gentle acidity, this blend welcomes the day with a bright and uplifting flavor profile.</p>
+            <p>$14.99</p>
+            <button onclick="addToCart('Sunrise Serenade', 14.99)">Add to Cart</button>
+        </div>
+        <!-- Add more products with images -->
+    </section>
+    
+    
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-column">
+                <p>Contact us:</p>
+                <p>Owner: John Doe</p>
+            </div>
+            <div class="footer-column">
+                <p>Phone: +1234567890</p>
+                <p>Email: info@brewspectrum.com</p>
+            </div>
+            <div class="footer-column">
+                <p>Address:</p>
+                <p>123 Main Street, Cityville, USA</p> <!-- Updated address -->
+            </div>
+        </div>
+        
+        <p>&copy; 2024 BrewSpectrum Coffee Co. All rights reserved.</p>
+    </footer>
+    <script src="cart.js"></script>
+
+</body>
+</html>
